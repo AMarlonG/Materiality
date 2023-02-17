@@ -21,6 +21,7 @@ body {
     grid-template-columns: 1fr 2.2fr;
     gap: var(--space-xs-s);
     position: relative;
+    margin-block-end: 6rem;
 }
 
 .small-text {
