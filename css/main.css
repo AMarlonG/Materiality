@@ -21,6 +21,7 @@ body {
     grid-template-columns: 1fr 2.2fr;
     gap: var(--space-xs-s);
     position: relative;
+    isolation: isolate;
     margin-block-end: 6rem;
 }
 
@@ -56,6 +57,6 @@ body {
     z-index: -1;
     transform: rotate(55deg);
     /* inset-inline-start: ; */
-    /* inset-block-start: 10px; */
+    /* inset-block-start: ; */
     justify-self: center;
 }
