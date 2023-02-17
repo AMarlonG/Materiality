@@ -61,8 +61,8 @@ body {
     /* inset-inline-start: ; */
     /* inset-block-start: ; */
     justify-self: center;
-    /* top: -10px;
-    left: 380px; */
+    top: 0;
+    left: 0;
 }
 
 @media (max-width: 700px) {
