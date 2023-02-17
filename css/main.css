@@ -55,6 +55,7 @@ body {
     position: absolute;
     z-index: -1;
     transform: rotate(55deg);
-    inset-inline-start: 0;
+    /* inset-inline-start: ; */
+    /* inset-block-start: 10px; */
     justify-self: center;
 }
