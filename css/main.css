@@ -1,0 +1,59 @@
+
+
+
+body {
+    background-color: aliceblue;
+    color: black;
+    font-family: sans-serif;
+    max-width: min(100ch, 100% - 4rem);
+    margin-inline: auto;
+}
+
+.title {
+    font-size: var(--step-5);
+    font-weight: 1000;
+    padding-block-start: 2rem;
+    padding-block-end: 6rem;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2.2fr;
+    gap: var(--space-xs-s);
+    position: relative;
+}
+
+.small-text {
+    font-size: var(--step-0);
+}
+
+.small-text > p {
+    padding-block-end: 0.8rem;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.work {
+    padding-block-end: 1.5rem;
+}
+
+.big-text {
+    font-size: var(--step-3);
+    font-weight: 800;
+    line-height: 1.3;
+    padding-block-start: 4rem;
+}
+
+.content::after {
+    content: '';
+    width: 13%;
+    aspect-ratio: 1 / 7.5;
+    background-color: rgb(228, 46, 46);
+    position: absolute;
+    z-index: -1;
+    transform: rotate(55deg);
+    inset-inline-start: 0;
+    justify-self: center;
+}
