@@ -19,7 +19,6 @@ body {
 .content {
     display: grid;
     grid-template-columns: 1fr 2.2fr;
- minmax(50px, 1fr));
     gap: var(--space-xs-s);
     position: relative;
     isolation: isolate;
