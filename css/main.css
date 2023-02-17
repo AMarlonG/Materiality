@@ -57,12 +57,11 @@ body {
     background-color: rgb(209, 40, 40);
     position: absolute;
     z-index: -1;
+    /* Making sure it rotates from the bottom */
+    transform-origin: bottom;
     transform: rotate(55deg);
-    /* inset-inline-start: ; */
-    /* inset-block-start: ; */
-    justify-self: center;
-    top: 0;
-    left: 0;
+    inset-inline-start: -1.5rem;
+    inset-block-end: 30rem;
 }
 
 @media (max-width: 700px) {
